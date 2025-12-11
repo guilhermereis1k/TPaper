@@ -18,11 +18,6 @@ A lightweight Paper plugin that adds custom teleport items with settable locatio
 
 ## Commands
 
-### /tpaper help
-
-Displays all available commands from the plugin.
-
-
 ### /tpaper getMainPaper
 
 Gives the player the MainTown Teleport Paper.
