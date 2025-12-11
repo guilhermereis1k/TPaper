@@ -1,35 +1,59 @@
-TPaper
+# TPaper
 
 A lightweight Paper plugin that adds custom teleport items with settable locations, delay, limited uses, and cooldown.
 
-Features
+## Features
 
-Custom teleport item
+- Custom teleport item
 
-Set location by right-clicking the top of a block
+- Set location by right-clicking the top of a block
 
-Teleport delay (cancels if player moves)
+- Teleport delay (cancels if player moves)
 
-Cooldown only if teleport succeeds
+- Cooldown only if teleport succeeds
 
-Limited uses, item gets removed when empty
+- Limited uses, item gets removed when empty
 
-Simple and fast to use
+- Simple and fast to use
 
-Commands
+## Commands
 
-/tpaper – base command
+### /tpaper help
 
-/tpaper give – gives the custom teleport item
-(edit if your commands differ)
+Displays all available commands from the plugin.
 
-Requirements
+
+### /tpaper getMainPaper
+
+Gives the player the MainTown Teleport Paper.
+OP only.
+
+
+### /tpaper getCustomPaper
+
+Gives the player the Custom Teleport Paper, which allows defining a teleport location by right-clicking a block.
+OP only.
+
+
+### /tpaper setCoords <x> <y> <z>
+
+- Sets the MainTown coordinates in the config.yml.
+
+- Automatically saves the player’s current world
+
+- Updates X / Y / Z
+
+- Used by the MainTown teleport item
+
+- OP only.
+
+## Requirements
 
 PaperMC 1.20+
 
 Java 17+
 
-How it works
+## How it works
 
 Player gets the item
 
@@ -41,13 +65,13 @@ If delay ends → teleports
 
 If player moves → cancels (no cooldown)
 
-Build
+## Build
 ./gradlew build
 
 
-Output JAR:
+## Output JAR:
 build/libs/TPaper-1.0-SNAPSHOT.jar
 
-Install
+## Install
 
 Drop the JAR into your server’s plugins folder and restart.
