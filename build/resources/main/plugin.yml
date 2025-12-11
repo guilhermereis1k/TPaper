@@ -1,4 +1,0 @@
-name: TPaper
-version: '1.0.1-SNAPSHOT'
-main: org.inka.tPaper.TPaper
-api-version: '1.21'
